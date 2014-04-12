@@ -65,11 +65,6 @@ class SurfaceG extends JPanel implements ActionListener
 				int realX = x * cellWidth + loc.x;
 				int realY = y * cellHeight + loc.y;
 
-				/*
-				 * if(x != gridWidth) g2.drawLine(realX, realY, realX +
-				 * cellWidth, realY); if(y != gridHeight) g2.drawLine(realX,
-				 * realY, realX, realY + cellHeight);
-				 */
 
 				if (cells[y][x])
 					g2.setColor(Color.blue);
