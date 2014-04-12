@@ -125,13 +125,14 @@ public class Grid extends JFrame
 	{
 
 		setTitle("Grid");
-
-		SurfaceG component = new SurfaceG(5, 4, 100, 50);
-		component.setLocation(100, 100);
-		
-		add(component);
-
 		setSize(800, 800);
+		
+		SurfaceG component = new SurfaceG(5, 4, 100, 50);
+		component.setSize(400,400);
+		component.setVisible(true);
+		add(component);
+		
+
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 	}
