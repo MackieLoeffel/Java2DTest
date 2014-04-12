@@ -37,7 +37,7 @@ class SurfaceG extends JPanel implements ActionListener
 
 		cells = new boolean[gridHeight][gridWidth];
 
-		setBackground(Color.WHITE);
+		setBackground(Color.BLACK);
 		
 		addMouseListener(new HitTestAdapter());
 		
