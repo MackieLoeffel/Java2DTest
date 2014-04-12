@@ -72,7 +72,7 @@ class SurfaceG extends JPanel implements ActionListener
 				 */
 
 				if (cells[y][x])
-					g2.setColor(Color.RED);
+					g2.setColor(Color.blue);
 				else
 					g2.setColor(Color.cyan);
 
